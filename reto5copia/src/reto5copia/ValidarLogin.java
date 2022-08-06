@@ -20,7 +20,7 @@ import javax.swing.JOptionPane;
 public class ValidarLogin {
        private String URL = "jdbc:mysql://localhost:3306/netentertainment";
     private String USERNAME = "root";
-    private String PASSWORD = "Auto1921*";
+    private String PASSWORD = "password";
     private String User;
     private String Clave;
 
