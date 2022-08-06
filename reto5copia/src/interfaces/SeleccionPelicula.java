@@ -145,7 +145,7 @@ public class SeleccionPelicula extends javax.swing.JFrame {
     private void SerieActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SerieActionPerformed
         try {
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/netentertainment",
-                            "root", "Auto1921*");
+                            "root", "password");
             Statement statement;
             statement = con.createStatement();
 
@@ -173,7 +173,7 @@ public class SeleccionPelicula extends javax.swing.JFrame {
     private void PeliculaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PeliculaActionPerformed
         try {
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/netentertainment",
-                            "root", "Auto1921*");
+                            "root", "password");
             Statement statement;
             statement = con.createStatement();
 
